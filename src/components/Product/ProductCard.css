@@ -1,0 +1,22 @@
+.prodcutcard {
+  font-size: 0.8rem;
+  background-color: white;
+}
+.prodcutcard .textpart {
+  transition: transform 0.3s ease-out;
+  background: white;
+  padding: 0.3rem;
+}
+.prodcutcard:hover .textpart {
+  transform: translateY(-1rem);
+}
+.prodcutcard:hover {
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.56);
+}
+.price {
+  display: flex;
+  justify-content: flex-start;
+}
+.price p {
+  margin-right: 1rem;
+}
